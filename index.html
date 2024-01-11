@@ -102,5 +102,24 @@
         <p>Copyright &copy The Odin Project 2024</p>
       </div>
     </section>
+
+    <script>
+      let user = prompt("Enter User Name", "Username");
+
+      if (user == "Admin") {
+        let pass = prompt("Enter Password", "Password");
+        if (pass == "TheMaster") {
+          alert("Welcome!");
+        } else if ("" || null) {
+          alert("Canceled");
+        } else {
+          alert("Wrong Password");
+        }
+      } else if ("" || null) {
+        alert("Canceled");
+      } else {
+        alert("I Don't Know You!");
+      }
+    </script>
   </body>
 </html>
